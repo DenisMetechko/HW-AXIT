@@ -8,6 +8,7 @@
 }
 .pricing-card {
   width: 340px;
+  margin: 0 15px;
 }
 .pricing-card-content {
 }
@@ -21,6 +22,7 @@
   font-size: 20px;
   text-align: center;
   margin: 0 auto 2px;
+  padding: 10px;
 }
 .pricing-list-priсe {
   background-color: #333333;
@@ -30,6 +32,7 @@
   font-size: 35px;
   text-align: center;
   margin: 0 auto 2px;
+  padding: 30px;
 }
 .pricing-list-description {
   background-color: #333333;
@@ -39,6 +42,7 @@
   font-size: 14px;
   text-align: center;
   margin: 0 auto 4px;
+  padding: 15px;
 }
 .pricing-list-line {
   background-color: #ffff;
@@ -47,7 +51,6 @@
   font-weight: 400;
   font-size: 14px;
   text-align: center;
-  /* line-height: 19px; */
   margin: 0 auto 4px;
-  padding: 9px auto 12px;
+  padding: 10px;
 }
