@@ -1,5 +1,6 @@
 @import url(../css/awesome.css);
 @import url(../css/cdn.css);
+@import url(../css/pricing.css);
 
 * {
   margin: 0;
@@ -14,11 +15,10 @@ html {
 }
 .container {
   max-width: 1170px;
-  padding: 0 15px;
-  background-color: #fff;
+  padding: 80px 15px 100px;
   margin: auto;
 }
-h2 {
+.title {
   font-size: 36px;
   font-weight: 400;
   font-family: 'Raleway';
@@ -26,4 +26,19 @@ h2 {
   text-transform: uppercase;
   font-style: normal;
   margin: 0px auto 34px;
+}
+.line {
+  width: 64px;
+  border: 1px solid #e72424;
+  text-align: center;
+  margin: 0 auto 34px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+  text-align: center;
+  margin: 0 auto 72px;
+  text-transform: full-width;
 }
